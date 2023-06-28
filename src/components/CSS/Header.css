@@ -2,10 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html,body{
     width: 100%;
     height: 100%;
+}
+
+.sticky-header{
+    
+    position: sticky;
+    top: 0;
+    animation: nav-sticky .3s ease forwards; 
+    /* - forwards means 0% aa ke ruk jayega 
+       - position:sticky , means move ho krr , top=0 means apne jagah aa jaye
+       - phir animation add krr diye usme
+    */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 30px 58px #FFFAF8;
+}
+
+
+@keyframes nav-sticky{
+   0%{transform: translateY(-15vh);}
+   100%{transform: translateY(0);}
 }
 
 nav{
@@ -14,8 +34,9 @@ nav{
     justify-content: space-between;
     width: 100vw;
     height: 15vh;
-    /* background-color: red; */
+    background-color: #FFFAF8;
     padding:0 12rem 0 10rem;
+    /* border-bottom: 1px solid red; */
 }
 
 img{
@@ -59,7 +80,7 @@ li{
        
         width: 100vw;
         height: 12vh;
-        background-color: red;
+        /* background-color: red; */
         padding:0 1rem;
     }
 
