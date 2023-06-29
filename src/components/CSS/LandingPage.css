@@ -4,27 +4,28 @@
     box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-.landing-all{
+.landing-all {
     width: 100vw;
     height: 84vh;
     /* background-color: red; */
-    padding:0 12rem 0 10rem;
-     background-color: #FFFAF8;
+    padding: 0 12rem 0 10rem;
+    background-color: #FFFAF8;
 }
 
-.landingpage{
+.landingpage {
     display: flex;
     width: auto;
     height: 72vh;
     /* background-color: blue; */
 }
 
-.landing-company{
+.landing-company {
     display: flex;
     align-items: center;
     width: auto;
@@ -32,7 +33,7 @@ html,body {
     /* background-color: yellow; */
 }
 
-.landing-content{
+.landing-content {
     /* display: flex; */
     width: 68vw;
     height: 72vh;
@@ -40,15 +41,15 @@ html,body {
     padding: 0 2rem 0 .2rem;
 }
 
-.landing-content h1{
+.landing-content h1 {
     font-size: 4rem;
     font-weight: 800;
-    margin-bottom:2.5rem;
+    margin-bottom: 2.5rem;
     margin-top: 2rem;
     opacity: .8;
 }
 
-.landing-content p{
+.landing-content p {
     margin-bottom: 3rem;
     width: 40vw;
     color: black;
@@ -58,33 +59,153 @@ html,body {
     margin-left: 12px;
 }
 
-.landing-content a{
+.landing-content a {
     font-size: 1.2rem;
     font-weight: 600;
-   padding: 1.2rem 2rem;
-   color: white;
-   background-color: black;
-   opacity: .8;
-   border-radius: 3px;
-   margin-left: 12px;
+    padding: 1.2rem 2rem;
+    color: white;
+    background-color: black;
+    opacity: .8;
+    border-radius: 3px;
+    margin-left: 12px;
 }
 
-.landing-img{
+.landing-img {
     width: 32vw;
     height: 72vh;
     /* background-color: rgb(255, 203, 154); */
 }
 
-.landing-img img{
+.landing-img img {
     width: auto;
     height: auto;
 }
 
 
-.company-img{
+.company-img {
     display: flex;
     align-items: center;
     justify-content: center;
-   width: calc(100vw / 6);
-   height: auto;
+    width: calc(100vw / 6);
+    height: auto;
+}
+
+.landing-imggg {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .landing-all {
+        width: 100vw;
+        height: 100vh;
+        /* background-color: red; */
+        padding: 0 1rem;
+        background-color: #FFFAF8;
+    }
+
+    .landingpage {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 80vh;
+        /* background-color: blue; */
+    }
+
+    .landing-company {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 20vh;
+        /* background-color: yellow; */
+    }
+
+    .landing-content {
+        /* display: flex; */
+        width: auto;
+        height: 80vh;
+        /* background-color: rgb(48, 68, 8); */
+        /* padding: 0 2rem 0 .2rem; */
+    }
+
+    .landing-content h1 {
+        font-size: 1.8rem;
+        font-weight: 800;
+        text-align: center;
+        /* margin-bottom:2.5rem; */
+        /* margin-top: 2rem; */
+        opacity: .8;
+    }
+
+    .landing-content p {
+        /* margin-bottom: 2rem; */
+        width: auto;
+        color: black;
+        opacity: .7;
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: 600;
+        margin-left: 12px;
+    }
+
+    .landing-img {
+        display: none;
+    }
+
+    .landing-content a {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem 2rem;
+        color: white;
+        background-color: black;
+        opacity: .8;
+        border-radius: 2px;
+        margin-left: 3rem;
+    }
+
+    .landing-imggg {
+        display: flex;
+        width: 91vw;
+        height: 40vh;
+        overflow: hidden;
+        /* background-color: rgb(255, 203, 154); */
+    }
+
+    .landing-imggg img {
+        width: auto;
+        height: auto;
+    }
+
+    .landing-company {
+       
+        height: 20vh;
+    }
+
+
+    .company-img{
+        display: none;
+    } 
+
+    .company-img-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 20vh;
+        /* background-color: rgb(163, 132, 132); */
+    }
+
+    .company-img-1 img{
+        width: 30vw;
+        height: 14vh;
+    }
+
 }
