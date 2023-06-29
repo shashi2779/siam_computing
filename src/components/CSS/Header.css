@@ -19,7 +19,8 @@ html,body{
        - phir animation add krr diye usme
     */
     background-color: rgb(255, 255, 255);
-    box-shadow: 10px 30px 58px #FFFAF8;
+    box-shadow: 0px 6px 2px #FFFAF8;
+    z-index: 9999;
 }
 
 

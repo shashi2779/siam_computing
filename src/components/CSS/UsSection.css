@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.Us-section {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+
+
+}
+
+.why-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    width: 100vw;
+    height: 20vh;
+    padding: 0 12rem 0 10rem;
+    /* background-color: yellow; */
+    opacity: .8;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    padding: 0 13rem 0 10rem;
+    /* background-color: green; */
+}
+
+.container-area:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5em 3.5em;
+    gap: 3rem;
+    text-align: center;
+    width: calc(80vw / 3);
+    height: 80vh;
+    /* background-color: rgb(88, 88, 70); */
+}
+
+.container-area:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5em 3.5em;
+    gap: 3rem;
+    text-align: center;
+    width: calc(80vw / 3);
+    height: 80vh;
+    /* background-color: blue; */
+}
+
+.container-area:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5em 3.5em;
+    gap: 3rem;
+    text-align: center;
+    width: calc(80vw / 3);
+    height: 80vh;
+    /* background-color: rgb(255, 209, 148); */
+}
+
+.container-area h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #444444;
+}
+
+.container-area p {
+    color: #444444;
+}
+
+.container-area:hover {
+    background-color: #FFF5F5;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .Us-section {
+        width: 100vw;
+        height: 100vh;
+        /* background-color: red; */
+    }
+
+    .why-us {
+
+        padding: 0;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 80vh;
+        padding: 0 0rem;
+    }
+
+    .container-area:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3.5em 3.5em;
+        gap: 3rem;
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+        /* background-color: rgb(88, 88, 70); */
+    }
+
+    .container-area:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3.5em 3.5em;
+        gap: 3rem;
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+        /* background-color: rgb(88, 88, 70); */
+    }
+
+    .container-area:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3.5em 3.5em;
+        gap: 3rem;
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+        /* background-color: rgb(88, 88, 70); */
+    }
+
+}

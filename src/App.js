@@ -5,11 +5,11 @@ import UsSection from './components/UsSection';
 
 function App() {
   return (
-   <>
-   <Header/>
-   <Footer/>
-   {/* <UsSection/> */}
-   </>
+    <>
+      <Header />
+      <UsSection />
+      <Footer />
+    </>
   );
 }
 
